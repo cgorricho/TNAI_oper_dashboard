@@ -24,7 +24,7 @@ import regex                  # regular expresions para limpiar texto
 
 ### IMPORTA Y PREPARA DATOS ###
 # crea archivo de excel como fuente de datos para pandas
-xls = pd.ExcelFile(r'/home/cgorricho/GoogleDrive-HGSAS/AIML/Proyectos/Termonorte/Proyecto AI TN/03_oper_optim/Dashboard Excel/Copia de Parámetros Termonorte  año 2023.xlsx')
+xls = pd.ExcelFile(r'Copia de Parámetros Termonorte  año 2023.xlsx')
 
 # importa información de la hoja 
 df_datos = pd.read_excel(
