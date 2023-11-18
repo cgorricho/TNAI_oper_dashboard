@@ -62,7 +62,7 @@ st.set_page_config(
 )
 
 # barra lateral
-st.sidebar.image("/home/cgorricho/GoogleDrive-HGSAS/AIML/Proyectos/Termonorte/Proyecto AI TN/03_oper_optim/logo_TN_small.png")
+st.sidebar.image("logo_TN_small.png")
 with st.sidebar:
     mes = st.slider('mes', min_value=1, max_value=12, value=1, step=1)
 
@@ -73,7 +73,7 @@ st.sidebar.write(f'Mes inicial: {mes}')
 col1, col2 = st.columns([1, 5])
 
 with col1:
-   st.image("/home/cgorricho/GoogleDrive-HGSAS/AIML/Proyectos/Termonorte/Proyecto AI TN/03_oper_optim/logo_TN_small.png")
+   st.image("logo_TN_small.png")
 
 with col2:
    st.header('Informe de Parámetros')
